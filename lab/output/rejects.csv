@@ -1,0 +1,8 @@
+order_id,customer_id,product_id,order_date,qty,unit_price,discount_pct,status,reject_reason
+O0011,C036,P010,03-Aug-2026,3,1072.6,5,paid,duplicate_order_id
+O0041,C044,P014,2026-08-01,2,586.17,10,paid,duplicate_order_id
+O0101,C006,P006,2026/08/02,1,1322.8,0,completed,duplicate_order_id
+O0007,C046,P001,2026-08-04,-2,996.79,0,paid,invalid_qty
+O0021,C014,P005,2026-08-04,2,1299.0,150,cancelled,invalid_discount_pct
+O0034,C041,P004,not-a-date,2,390.89,0,paid,invalid_order_date
+O0091,C019,P015,01/08/2026,2,-100.0,5,completed,invalid_unit_price

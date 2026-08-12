@@ -1,0 +1,16 @@
+2026-08-12 11:24:10,010 | INFO | ETL started
+2026-08-12 11:24:10,039 | INFO | [transform] customers: removed 2 duplicate customer_id rows
+2026-08-12 11:24:10,047 | INFO | [transform] orders: found 3 duplicate order_id rows
+2026-08-12 11:24:10,087 | INFO | [transform] orders: 4 rows failed validation rules
+2026-08-12 11:24:10,092 | INFO | [transform] orders: 100 paid/completed, 76 excluded (pending/cancelled/other) - not treated as rejects
+2026-08-12 11:24:10,138 | INFO | [transform] TOTAL rejects: 7, TOTAL valid sales rows: 100
+2026-08-12 11:24:10,153 | INFO | [load] dim_customer=60 rows, dim_product=15 rows, fact_sales=100 rows
+2026-08-12 11:24:10,154 | INFO | ETL completed
+2026-08-12 11:24:14,293 | INFO | ETL started
+2026-08-12 11:24:14,300 | INFO | [transform] customers: removed 2 duplicate customer_id rows
+2026-08-12 11:24:14,307 | INFO | [transform] orders: found 3 duplicate order_id rows
+2026-08-12 11:24:14,347 | INFO | [transform] orders: 4 rows failed validation rules
+2026-08-12 11:24:14,351 | INFO | [transform] orders: 100 paid/completed, 76 excluded (pending/cancelled/other) - not treated as rejects
+2026-08-12 11:24:14,361 | INFO | [transform] TOTAL rejects: 7, TOTAL valid sales rows: 100
+2026-08-12 11:24:14,367 | INFO | [load] dim_customer=60 rows, dim_product=15 rows, fact_sales=100 rows
+2026-08-12 11:24:14,368 | INFO | ETL completed
