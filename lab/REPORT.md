@@ -1,8 +1,4 @@
 # ETL Lab Report
-
-Student ID:
-Name:
-
 ## 1. Data Quality Problems Found
 - **customers.csv**: มี `customer_id` ซ้ำ (C004, C009), `province` เขียนไม่เป็นมาตรฐาน (ไทย/อังกฤษ ปน, ตัวพิมพ์เล็ก-ใหญ่ปน, ตัวย่อ เช่น "BKK", "chon buri", "จันทบุรี"), `email`/`province` บางแถวว่าง
 - **orders.csv**: มี `order_id` ซ้ำ (O0011, O0041, O0101 ปรากฏ 2 ครั้ง), `order_date` มี 4 รูปแบบปน (`YYYY/MM/DD`, `DD/MM/YYYY`, `YYYY-MM-DD`, `DD-Mon-YYYY`) และมีค่าที่อ่านไม่ออก (`not-a-date`), `qty` ติดลบ, `unit_price` ติดลบ, `discount_pct` เกิน 100%, `status` ตัวพิมพ์ปน (`PAID`, `paid`), มี `customer_id`/`product_id` ที่ไม่มีอยู่จริงในระบบ (C999, P999)
